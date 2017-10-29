@@ -1,0 +1,152 @@
+html, body
+{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-box{
+    background-color: rgba(246, 236, 236, 0.70) ;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;  
+}
+.bottom-box h1{
+    color:#575775;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*
+.container-box{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+*/
+.temp {
+    float: left;
+}
+
+.wi {
+    vertical-align: middle;
+    font-size: 1em;
+}
+    
+.weather-details{
+    color: #655F5F;
+    font-family: league-gothic, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 5% 10%;
+}
+    .very-warm { background-color: #FF8500;; }
+    .warm { background-color: #ffc600; }
+    .normal { background-color: #94AF10; }
+    .cold { background-color: #06799F; }
+    .very-cold { background-color: #233884; }
+    
+
+
+.city {
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: center;
+}
+
+.weather{
+    display: table;
+    text-align: center;
+    border-bottom: 2px solid white;  
+}
+@media screen and (max-width: 480px) {
+    .container-box{
+        height:100vh;
+    }
+    .bottom-box{
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+    .img-weather{
+        vertical-align: middle;
+        width: 100px;
+        height: 100px;
+    }
+    .weather{
+        width: 100%;
+        height: 100vh;
+    }
+    .navbar navbar-light bg-faded justify-content-between{
+        width: 100%;
+    }
+    .weather-details{
+        width: 100%;
+        height: 100vh;
+    }
+    .temp {
+        font-size: 6em;
+        width: 50%;
+        max-height: 200px;
+    }
+    .humidity, .wind {
+        font-size: 2em;
+        padding: 10px 0;
+
+    }
+    .weather-widget>.wi {
+        vertical-align: middle;
+        font-size: 7em;
+        color: #655F5F; 
+        margin: 40px 0;
+    }
+}
+@media screen and (min-width: 481px) {
+    .container-box{
+        height:100%;
+    }
+    .bottom-box{
+        width: 40%;
+        height: 40%; 
+    }
+    .img-weather{
+        vertical-align: middle;
+        width: 100px;
+        height: 100px;
+    }
+    .weather{
+        height: 415px;
+        width: 100%;
+    }
+    .navbar-nav{
+        width: 100%;
+    }
+    .weather-details{
+        width: 100%;
+    }
+    .bottom-box h1{
+        font-size: 3.4em;
+    }
+    .temp {
+        font-size: 7.5em;
+        width: 55%;
+        max-height: 200px;
+    }
+    .humidity, .wind {
+        font-size: 2.3em;
+        padding: 10px 0;
+    }
+    .weather-widget>.wi {
+        
+        vertical-align: middle;
+        font-size: 7em;
+        color: #655F5F; 
+    }
+
+}
+
+
+
+
